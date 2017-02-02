@@ -8,6 +8,7 @@ use warnings;
 use Config;
 use ExtUtils::MakeMaker::Dist::Zilla::Develop;
 
+use lib '.';
 use inc::MMHelper;
 
 my %WriteMakefileArgs = (
