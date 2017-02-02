@@ -58,6 +58,7 @@ SKIP: {
         system($^X, (map { qq[-I$_] } @INC), 't/error.pl')
     });
     is($out, '');
+    $err =~ s/explicit package name \([^)]+\)/explicit package name/;
     is(
         $err,
         <<'ERR'
