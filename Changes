@@ -1,6 +1,8 @@
 Revision history for Parse-Keyword
 
 {{$NEXT}}
+      - fixed test failure on perl 5.22+
+      - added x_deprecated metadata
 
 0.08  2013-10-10
       - doc tweaks to make the deprecation notice more visible
