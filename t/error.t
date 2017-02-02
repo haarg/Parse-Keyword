@@ -1,4 +1,3 @@
-#!/usr/bin/env perl
 use strict;
 use warnings;
 use Test::More;
@@ -62,7 +61,7 @@ SKIP: {
     is(
         $err,
         <<'ERR'
-Global symbol "$baz" requires explicit package name at t/error.pl line 9.
+Global symbol "$baz" requires explicit package name at t/error.pl line 8.
 Execution of t/error.pl aborted due to compilation errors.
 ERR
     );

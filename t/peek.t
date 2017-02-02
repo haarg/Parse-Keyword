@@ -1,4 +1,3 @@
-#!/usr/bin/env perl
 use strict;
 use warnings;
 use Test::More;
@@ -17,6 +16,6 @@ use Test::More;
     ::is_deeply([ foo ], []);
 }
 
-is(__LINE__, 20);
+is(__LINE__, 19);
 
 done_testing;
