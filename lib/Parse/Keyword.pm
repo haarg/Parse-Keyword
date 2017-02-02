@@ -190,9 +190,6 @@ This module doesn't yet work with lexical subs, such as via
 L<Exporter::Lexical>. This will hopefully be fixed in the future, but will
 likely require modifications to perl.
 
-Please report any bugs to GitHub Issues at
-L<https://github.com/doy/parse-keyword/issues>.
-
 =head1 SEE ALSO
 
 L<Devel::CallParser>
@@ -221,11 +218,7 @@ L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Parse-Keyword>
 
 =item * Github
 
-L<https://github.com/doy/parse-keyword>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Parse-Keyword>
+L<https://github.com/haarg/Parse-Keyword>
 
 =back
 
