@@ -4,7 +4,7 @@ use warnings;
 use 5.014;
 # ABSTRACT: DEPRECATED: write syntax extensions in perl
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use Devel::CallParser;
 use XSLoader;
